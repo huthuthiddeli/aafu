@@ -10,5 +10,10 @@ min_version = "0.134.3"
 theme_version = "2024.10.13"
 
 [author]
-  name = "Darshan Baral"
+  name = "Jonas Maier"
   homepage = "https://www.darshanbaral.com/"
+
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+  [markup.blackfriday]
+    unsafe = true

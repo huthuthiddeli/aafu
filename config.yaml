@@ -2,13 +2,15 @@ baseURL: https://aafu.pages.dev/
 languageCode: en-us
 build:
   writeStats: true
+theme: ["hugo-embed-pdf-shortcode"]
+enableInlineShortcodes: true
 params:
   title: aafu theme
-  author: Darshan Baral
-  description: Website title
+  author: Maier Jonas
+  description: Portfolio Maier
   copyright: >-
     powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
+    [Github](https://github.com)
   theme:
     mainTheme: dark
     showAttribute: true
@@ -24,34 +26,19 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
+    name: "Jonas Maier"
+    tagline: Schüler
+    location: "5723 Uttendorf"
     photo: profile.jpg
   social:
     title: Links
     list:
-      - icon: fab fa-linkedin-in
-        url: "#"
-        title: LinkedIn
       - icon: fab fa-stack-overflow
-        url: "#"
+        url: "https://stackoverflow.com/users/20582393/nasgur"
         title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/huthuthiddeli"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
-      - icon: ai ai-google-scholar
-        url: "#"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
   showInAccordion:
     - item: aboutme
       expand: true
@@ -64,107 +51,57 @@ params:
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description: Enthusiastischer Schüler der HTL-Saalfelden mit unbeschreiblichen Elan und Interesse.
   experience:
     title: Experiences
     icon: fas fa-briefcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
+      - position: Praktikum
+        dates: 2018
+        company: Kitzsteinhorn
         details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+          - Sensoren in Kartenscannern gewechselt.
+          - Neue PCs aufgesetzt.
+          - Arbeiten in der Elektrowerktatt.
+          - Server-Client Applikation für Fotoautomat programmiert.
   education:
-    title: Education
+    title: Ausbildung
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
+      - degree:
+        college: Mittelschule
+        dates: 2012 - 2017
+        thesis_title: Schwerpunkt Mathe
+        thesis_url: "https://www.ms-uttendorf.salzburg.at/"
+      - degree: Matura
+        college: HTL-Saalfelden
+        dates: 2018 - 2025
         thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
-  publication:
-    title: Publications
-    icon: fas fa-book
-    format:
-      - date
-      - title
-      - authors
-      - journal
-    types:
-      - Journal Articles
-      - Proceedings
-    list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
   project:
     title: Projects
     icon: fas fa-project-diagram
     list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
+      - title: SYP-Projekt 2022/23
+        description: Kleines Videospiel mit Website und Datenbank
+      - title: SYP-Projekt 2023/24
+        description: Fernsteuerung eines M-Bots
+      - title: DermAI
+        description: Applikation zur früherkennung von Hautkrebs
   skill:
     title: Skills
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
-        skillrating: 90
-      - skill: Skill 3
-        skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
+      - skill: Chillei
+        skillrating: 69
+      - skill: Fehlstundenquote 
+        skillrating: 100
+      - skill: Schule
+        skillrating: 0
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
     list:
-      - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - hobby: Computerspielen
+      - hobby: Autofahren
+      - hobby: Über das Leben philosophieren
