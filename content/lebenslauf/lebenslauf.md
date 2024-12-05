@@ -10,4 +10,4 @@ draft: false
 
 
 # Das ist mein eingebetteter Lebenslauf
-{{< embed-pdf url="./../Lebenslauf_MAIER.pdf" >}}
+{{< embed-pdf url="./../../../images/Lebenslauf_MAIER.pdf" >}}
