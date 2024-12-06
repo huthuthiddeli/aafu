@@ -81,12 +81,14 @@ params:
     title: Projects
     icon: fas fa-project-diagram
     list:
-      - title: SYP-Projekt 2022/23
+      - title: [SYP-Projekt 2022/23](https://github.com/huthuthiddeli/SYP_Projekt_2022-23)
         description: Kleines Videospiel mit Website und Datenbank
-      - title: SYP-Projekt 2023/24
+      - title: [SYP-Projekt 2023/24](https://github.com/huthuthiddeli/SYP_PROJEKT_23-24_Maier)
         description: Fernsteuerung eines M-Bots
       - title: DermAI
         description: Applikation zur früherkennung von Hautkrebs
+      - title: [Pferderennen POS 2024](https://github.com/huthuthiddeli/SYP_PROJEKT_23-24_Maier)
+        description: Kleines Pferderennen mit Backend crossplatform 
   skill:
     title: Skills
     panelId: skill-panel
