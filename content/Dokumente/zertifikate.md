@@ -1,11 +1,8 @@
 ---
-title: "Zertifikat Muster"
+title: "Zertifikate"
 date: 2024-12-04
-tags: ["Zertifikat", "Fortbildung"]
+tags: ["Lebenslauf"]
 categories: ["Bewerbungsdokumente", "Wichtig"]
 description: "Zertifikate"
 draft: false
 ---
-
-
-# Hier würden meine Zertifikate stehen
